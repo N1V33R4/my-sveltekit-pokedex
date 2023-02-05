@@ -5,7 +5,6 @@ import node from '@sveltejs/adapter-node';
 const config = {
 	kit: {
 		// adapter: adapter()
-		target: '#svelte',
 		adapter: node()
 	}
 };
